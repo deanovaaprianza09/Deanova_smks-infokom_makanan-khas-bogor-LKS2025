@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    height: 3000px;
+    color: white;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    padding: 1.4rem 7%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+
+}
+
+.navbar a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar a span {
+    color: rgb(95, 255, 95);
+}
+
+.navbar .navbar-nav { 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navbar .navbar-nav a {
+    color: white;
+    margin: 0.5rem;
+}
+
+/* hero */
+.hero {
+
+    background-image: url('../img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 1.4rem 7%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.hero .hero-content {
+   text-align: center;
+
+}
+
+.hero h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+
+}
+
+.hero p {
+    margin-top: 1rem;
+    color: rgb(255, 255, 56);
+}
+
+
+/* menu */
+
+.menu {
+    padding: 8rem 7%;
+    min-height: 100vh;
+    
+}
+
+.menu h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.menu h2 span {
+    color: rgb(95, 255, 95);;
+}
+
+
+.card-cont {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2rem 0;
+border-radius: 10px;
+padding: 1.4rem 0;
+
+flex-wrap: wrap;
+
+
+
+}
+
+.card {
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 25rem;
+    margin: 1rem 1rem;
+}
+
+.card .card-img img {
+    width: 20rem;
+    height: 15rem;
+}
+
+.card-content {
+    padding: 0 1rem;
+}
+
+.card-content h3 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+
+}
+
+.card-content h5 {
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+}
+.card-content .cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 0.8rem;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+}
+
+
+
+
+ 
+   
+
+ 
+
+
+
+
+
