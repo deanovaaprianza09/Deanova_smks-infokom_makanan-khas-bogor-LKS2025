@@ -12,7 +12,6 @@ body {
     background-color: rgb(15, 15, 15);
     height: 3000px;
     color: white;
-
 }
 
 .navbar {
@@ -26,12 +25,11 @@ body {
     right: 0;
     left: 0;
     z-index: 9999;
-
 }
 
 .navbar a {
     color: white;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -50,6 +48,10 @@ body {
     margin: 0.5rem;
 }
 
+.navbar .navbar-nav a:hover {
+    color:  rgb(95, 255, 95);
+}
+
 /* hero */
 .hero {
 
@@ -62,19 +64,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
 }
 
 .hero .hero-content {
    text-align: center;
-
 }
 
 .hero h1 {
     font-size: 5rem;
     font-weight: 600;
     color: white;
-
 }
 
 .hero p {
@@ -88,20 +87,17 @@ body {
 .menu {
     padding: 8rem 7%;
     min-height: 100vh;
-    
 }
 
 .menu h2 {
     color: white;
     text-align: center;
     font-size: 2em;
-
 }
 
 .menu h2 span {
-    color: rgb(95, 255, 95);;
+    color: rgb(95, 255, 95);
 }
-
 
 .card-cont {
 display: flex;
@@ -110,11 +106,7 @@ align-items: center;
 margin: 2rem 0;
 border-radius: 10px;
 padding: 1.4rem 0;
-
 flex-wrap: wrap;
-
-
-
 }
 
 .card {
@@ -154,8 +146,104 @@ flex-wrap: wrap;
     color: white;
     font-size: 1.5rem;
     border-radius: 10px;
+}
+
+.card-content .cta:hover {
+    background-color:  rgb(95, 255, 95);
+    color:  rgb(44, 44, 44);
+}
+
+/* about */
+
+.container {
+    display: flex;
+   
+    justify-content: center;
+    padding: 1.4rem 7%;
 
 }
+
+.container img {
+    width: 60%;
+    border-radius: 15px;
+}
+
+.container .containerr {
+    width: 49%;
+    margin: 0 5rem;
+}
+
+.container .containerr h1 {
+margin-bottom: 5rem;
+font-size: 3rem;
+font-weight: 700;
+}
+
+.container .containerr h1 span {
+    color:  rgb(95, 255, 95);
+}
+
+.container .containerr p {
+font-size: 1.4rem;
+}
+
+
+
+/* Login */
+.login-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 7%;
+}
+.login {
+     background-color: rgb(43, 43, 43);
+     height: 30rem;
+     width: 40rem;
+     text-align: center;
+     border-radius: 15px;
+     padding: 1.4rem 7%;
+
+}
+
+.login h1 {
+    padding: 1.5rem 0;
+}
+
+.login h5 {
+    position: relative;
+    right: 10rem;
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.login-cont .login .usn {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    
+}
+
+.button a {
+    display: inline-block;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    padding: 1.5rem 5rem;
+    margin-top: 3rem;
+    border-radius: 15px;
+}
+
+.button a:hover {
+    background-color: rgb(95, 255, 95) ;
+    color:  rgb(43, 43, 43);
+}
+
+
+
+    
 
 
 
